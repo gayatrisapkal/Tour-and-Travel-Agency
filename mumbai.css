@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hollywood-roosevelt/the-hollywood-roosevelt-hotel-388523/thehollywoodroosevelt/home-hero-slider/tropicana-pool.jpg?width=1500&height=852);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; 
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputBox {
+    margin: 15px;
+}
+
+.inputBox h3 {
+    margin-bottom: 5px;
+}
+
+.hotel-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hotel-item {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.hotel-item img {
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color:rgb(252, 175, 33);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+
+.btn:hover {
+    background-color:rgb(255, 153, 0);
+}

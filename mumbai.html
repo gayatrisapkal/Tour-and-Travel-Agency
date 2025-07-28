@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mumbai.css">
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Filter Hotels by Rating and Price</h2>
+        <form id="hotelFilterForm">
+            <div class="inputBox">
+                <h3>Select Rating</h3>
+                <select id="ratingFilter">
+                    <option value="">Any</option>
+                    <option value="5">5 stars</option>
+                    <option value="4">4 stars & up</option>
+                    <option value="3">3 stars & up</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <h3>Max Price</h3>
+                <select id="priceFilter">
+                    <option value=" ">Any</option>
+                    <option value="60">Up to $60</option>
+                    <option value="100">Up to $100</option>
+                    <option value="150">Up to $150</option>
+                </select>
+            </div>
+            <input type="submit" class="btn" value="Filter Hotels">
+        </form>
+
+        <h3>Available Hotels</h3>
+        <a href="index.html#book"><ul class="hotel-list" id="hotelList">
+            <!-- List of hotels will be displayed here -->
+        </ul></a>
+    </div>
+    <script src="mumbai.js"></script>
+</body>
+</html>
